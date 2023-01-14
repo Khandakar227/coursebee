@@ -1,6 +1,6 @@
 import { SVGAttributes } from "react";
 
-export default function ArrowRight(props: SVGAttributes<SVGElement>) {
+export default function ArrowLeft(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       width="24"
@@ -10,18 +10,19 @@ export default function ArrowRight(props: SVGAttributes<SVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
+      \
       <path
-        d="M14.4302 5.93018L20.5002 12.0002L14.4302 18.0702"
+        d="M9.57 5.93018L3.5 12.0002L9.57 18.0702"
         stroke="currentColor"
-        strokeWidth="2"
+        strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M3.5 12H20.33"
+        d="M20.4999 12H3.66992"
         stroke="currentColor"
-        strokeWidth="2"
+        strokeWidth="1.5"
         strokeMiterlimit="10"
         strokeLinecap="round"
         strokeLinejoin="round"

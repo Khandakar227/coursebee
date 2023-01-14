@@ -2,12 +2,14 @@ import Carousel, { CarouselItem } from "@/components/Home/Carousel";
 import FifthSection from "@/components/Home/FifthSection";
 import FourthSection from "@/components/Home/FourthSection";
 import SecondSection from "@/components/Home/SecondSection";
+import SixthSection from "@/components/Home/SixthSection";
 import SliderContent from "@/components/Home/SliderContent";
 import ThirdSection from "@/components/Home/ThirdSection";
+import ThirdSection2 from "@/components/Home/ThirdSection2";
 import CourseCard from "@/components/common/CourseCard";
 import ArrowRight from "@/components/common/icons/ArrowRight";
+import GoogleIcon from "@/components/common/icons/GoogleIcon";
 import Head from "next/head";
-import Image from "next/image";
 
 const courses = [
   {image:"assets/home/card_img.svg", title:"Fullstack web development with MERN",starting_time:"১৬ অক্টোবর শুরু", price:"৳৬০০০", previous_price:"৳৮৫০০"},
@@ -15,6 +17,15 @@ const courses = [
   {image:"assets/home/card_img.svg", title:"Wordpress for Beginners",starting_time:"১৬ অক্টোবর শুরু", price:"৳৬০০০", previous_price:"৳৮৫০০"},
   {image:"assets/home/card_img.svg", title:"Microsoft excel Beginners to Advanced",starting_time:"১৬ অক্টোবর শুরু", price:"৳৬০০০", previous_price:"৳৮৫০০"},
 ]
+const experts = [
+  {image: "assets/home/card_img.svg", title: "Tortor, mauris", company: "Bibendum", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Tortor lacus", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Sagittis quam", company: "Nulla", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+]
+
 
 export default function Home() {
   return (
@@ -80,8 +91,10 @@ export default function Home() {
           
           <SecondSection />
           <ThirdSection />
+          <ThirdSection2 />
           <FourthSection />
           <FifthSection />
+          <SixthSection experts={experts}/>
         </div>
       </main>
     </>

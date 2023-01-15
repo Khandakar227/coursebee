@@ -4,6 +4,7 @@ import Category from "../common/icons/Category";
 import Send from "../common/icons/Send";
 import Play from "../common/icons/Play";
 import Star from "../common/icons/Star";
+import FeatureCard from "../common/FeatureCard";
 
 export default function FourthSection() {
   return (
@@ -12,7 +13,7 @@ export default function FourthSection() {
         Why Coursebee
       </h2>
       <div className="max-w-6xl mx-auto grid gap-6 justify-center items-stretch grid-cols-3">
-        <Card
+        <FeatureCard
           className="group hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Briefcase
@@ -31,7 +32,7 @@ export default function FourthSection() {
             "Lorem dui quam tincidunt id eget. Eget cursus proin adipiscing nisi ultrices amet."
           }
         />
-        <Card
+        <FeatureCard
           className="group hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Category
@@ -51,7 +52,7 @@ export default function FourthSection() {
             "Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."
           }
         />
-        <Card
+        <FeatureCard
           className="row-span-2 group hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Star
@@ -84,7 +85,7 @@ export default function FourthSection() {
             </>
           }
         />
-        <Card
+        <FeatureCard
           className="group hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Send
@@ -103,7 +104,7 @@ export default function FourthSection() {
             "Duis tincidunt diam sollicitudin dignissim massa. Varius lectus sed quis ultricies neque."
           }
         />
-        <Card
+        <FeatureCard
           className="group hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Play
@@ -126,24 +127,3 @@ export default function FourthSection() {
   );
 }
 
-const Card = ({
-  icon,
-  heading,
-  description,
-  className,
-}: {
-  icon: ReactNode;
-  heading: ReactNode;
-  description: ReactNode;
-  className?: string;
-}) => {
-  return (
-    <div className={`rounded-xl bg-white p-6 ${className}`}>
-      {icon}
-      <h3 className="font-inter text-[20px] font-medium mb-4 leading-5">
-        {heading}
-      </h3>
-      <p className="font-inter leading-6 grid">{description}</p>
-    </div>
-  );
-};

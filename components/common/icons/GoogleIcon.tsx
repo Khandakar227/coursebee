@@ -1,4 +1,6 @@
-export default function GoogleIcon() {
+import {SVGAttributes} from 'react'
+
+export default function GoogleIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       width="24"
@@ -6,6 +8,7 @@ export default function GoogleIcon() {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <path
         fillRule="evenodd"

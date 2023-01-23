@@ -4,7 +4,7 @@ export default function ThirdSection2() {
   return (
     <section className="max-w-6xl mx-auto py-[60px] grid grid-cols-2 gap-4 justify-center items-stretch">
       <div>
-        <h2 className="font-lora text-[31px] leading-[44px] font-semibold max-w-[416px] text-neutral-900 mb-4">
+        <h2 className="font-lora text-[31px] leading-[44px] font-semibold max-w-[416px] text-neutral-900 mb-4  dark:text-white">
         Freelancers
         <br/>Development
         </h2>

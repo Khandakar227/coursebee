@@ -26,7 +26,7 @@ export default function SixthSection({ experts = [] }: { experts: Expert[] }) {
         through our courses
       </h2>
       <div className="relative max-w-7xl mx-auto">
-        <button className="p-4 rounded-full border border-neutral-500 bg-white top-1/2 left-0 absolute shadow-md">
+        <button className="dark:text-black p-4 rounded-full border border-neutral-500 bg-white top-1/2 left-0 absolute shadow-md">
           <ArrowLeft className="hover:stroke-secondary-500" stroke="#A9B1BC" width={24} height={24} />
         </button>
         <div
@@ -44,7 +44,7 @@ export default function SixthSection({ experts = [] }: { experts: Expert[] }) {
               : ""}
           </div>
         </div>
-        <button className="p-4 rounded-full border border-neutral-500 bg-white top-1/2 right-0 absolute shadow-md">
+        <button className="dark:text-black p-4 rounded-full border border-neutral-500 bg-white top-1/2 right-0 absolute shadow-md">
           <ArrowRight className="hover:stroke-secondary-500" stroke="#A9B1BC" width={24} height={24} />
         </button>
       </div>
@@ -54,7 +54,7 @@ export default function SixthSection({ experts = [] }: { experts: Expert[] }) {
 
 const Card = ({ image, title, company, position, company_logo }: Expert) => {
   return (
-    <div className="grid overflow-hidden rounded-xl shadow-lg min-w-max">
+    <div className="grid overflow-hidden dark:shadow-neutral-600 dark:shadow-sm rounded-xl shadow-lg min-w-max">
       <Image src={image} alt={title} width={240} height={160} />
       <div className="p-4">
         <h4 className="font-inter font-bold text-xl leading-7 mb-2">{title}</h4>

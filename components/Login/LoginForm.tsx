@@ -12,9 +12,9 @@ export default function LoginForm({ open, setOpen }: {
     return (
         <section
             data-name="login-container"
-            className={`w-screen h-screen grid place-items-center fixed top-0 left-0 bg-neutral-900 bg-opacity-40 transition-all ${open ? "z-10" : "-z-10"}`}
+            className={`w-screen h-screen grid place-items-center fixed top-0 left-0 bg-neutral-900 dark:bg-neutral-600 dark:bg-opacity-40 bg-opacity-40 transition-all ${open ? "z-10" : "-z-10"}`}
             onClick={close}>
-            <div className={`${open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-16"} transition-all max-w-md bg-white rounded-xl p-10`}>
+            <div className={`${open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-16"} transition-all max-w-md bg-white rounded-xl p-10 dark:bg-neutral-800 dark:text-white`}>
                 <div className="w-full pb-10"><Image className="mx-auto" src="/assets/favicon.png" alt="Coursebee" width={144} height={48} /></div>
                 <form>
                     <label htmlFor="email" className="w-full p-1 font-inter text-sm font-medium"> Email </label>

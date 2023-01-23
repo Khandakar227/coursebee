@@ -14,7 +14,7 @@ export default function Course() {
                 <link rel="icon" href="/assets/favicon.png" />
             </Head>
 
-            <main>
+            <main className="dark:bg-neutral-800 dark:text-white">
                 <IntroSection />
                 <SecondSection />
                 <ThirdSection/>

@@ -4,7 +4,7 @@ export default function FourthSection() {
     return (
         <section className="py-[120px]">
             <h2 className="font-anek_bangla font-semibold text-center pb-10 text-[31px] leading-10 mb-6">কোর্সটি যেভাবে চলবে</h2>
-            <div className="flex items-stretch justify-center flex-wrap gap-6 max-w-6xl mx-auto item">
+            <div className="flex items-stretch justify-center flex-wrap gap-6 max-w-6xl mx-auto">
                 <div className="flex flex-col gap-6 justify-between">
                     <Card number="১" content="Interdum velit lorem id amet, maecenas dapibus tristique purus faucibus. Sit posuere libero luctus massa hendrerit id eros faucibus montes. Elit ac nam malesuada pharetra varius. Pharetra faucibus lacus, tellus ut ultricies. In viverra porta vulputate magnis suspendisse a." />
                     <Card number="২" content="Viverra nulla amet, ut vitae, tortor, id diam duis. Sapien vestibulum, sollicitudin arcu dui ipsum vel non. Et massa morbi volutpat eget potenti varius. Cursus eget sit ornare elementum suspendisse. Enim dignissim fringilla congue aliquam sed nunc. Nulla nulla nec eu ut fermentum mauris lectus. Vel pulvinar dui nec diam." />
@@ -29,7 +29,7 @@ export default function FourthSection() {
 const Card = ({ number, content }: { number: string, content: ReactNode }) => {
     return (
         <>
-            <div className="flex gap-4 items-start p-6 shadow-lg rounded-xl max-w-[328px]">
+            <div className="flex gap-4 items-start p-6 shadow-lg rounded-xl max-w-[328px] dark:bg-neutral-700 dark:bg-opacity-5">
                 <span className="text-xl w-full max-w-[32px] h-8 rounded-full bg-secondary-50 text-secondary-500 text-center"> {number} </span>
                 <p className="font-inter leading-6">{content}</p>
             </div>

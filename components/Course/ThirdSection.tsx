@@ -7,12 +7,12 @@ import Ticket from "../common/icons/Ticket";
 
 export default function ThirdSection() {
   return (
-    <section className="bg-neutral-50 py-[120px] font-inter">
+    <section className="bg-neutral-50 py-[120px] font-inter dark:bg-neutral-900">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-anek_bangla font-semibold text-center pb-10 text-[31px] leading-10"> এই কোর্স থেকে যা যা শিখতে পারবেন </h2>
 
         <div className="grid sm:grid-col-2 md:grid-cols-3 gap-10 justify-between items-center">
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Category
                 width={48}
@@ -24,7 +24,7 @@ export default function ThirdSection() {
             description={"Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."}
           />
 
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Category
                 width={48}
@@ -35,7 +35,7 @@ export default function ThirdSection() {
             heading={<><span className="font-extrabold">Javascript</span> এর এডভান্সড</>}
             description={"Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."}
           />
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Graph
                 width={48}
@@ -47,7 +47,7 @@ export default function ThirdSection() {
             description={"Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."}
           />
 
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Chat
                 width={48}
@@ -58,7 +58,7 @@ export default function ThirdSection() {
             heading={<><span className="font-extrabold">Messaging</span> Application Build</>}
             description={"Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."}
           />
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Play
                 width={48}
@@ -69,7 +69,7 @@ export default function ThirdSection() {
             heading={<><span className="font-extrabold">Live Project</span> তৈরি</>}
             description={"Quis amet velit sed sed vel vulputate iaculis donec. Dolor diam vestibulum, amet, cursus."}
           />
-          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm"
+          <FeatureCard className="group hover:bg-secondary-900 hover:text-white transition-all shadow-sm dark:bg-neutral-800 dark:bg-opacity-25 dark:hover:bg-secondary-900"
             icon={
               <Ticket
                 width={48}

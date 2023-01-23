@@ -14,7 +14,7 @@ export default function ThirdSection() {
       </div>
 
       <div>
-        <h2 className="font-lora text-[31px] leading-[44px] font-semibold max-w-[416px] text-neutral-900 mb-4">
+        <h2 className="font-lora text-[31px] leading-[44px] font-semibold max-w-[416px] dark:text-white text-neutral-900 mb-4">
         Job Placement 
         <br/>Opportunities
         </h2>

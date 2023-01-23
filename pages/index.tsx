@@ -18,12 +18,12 @@ const courses = [
   {image:"assets/home/card_img.svg", title:"Microsoft excel Beginners to Advanced",starting_time:"১৬ অক্টোবর শুরু", price:"৳৬০০০", previous_price:"৳৮৫০০"},
 ]
 const experts = [
-  {image: "assets/home/card_img.svg", title: "Tortor, mauris", company: "Bibendum", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
-  {image: "assets/home/card_img.svg", title: "Tortor lacus", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
-  {image: "assets/home/card_img.svg", title: "Sagittis quam", company: "Nulla", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
-  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
-  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
-  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon />},
+  {image: "assets/home/card_img.svg", title: "Tortor, mauris", company: "Bibendum", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
+  {image: "assets/home/card_img.svg", title: "Tortor lacus", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
+  {image: "assets/home/card_img.svg", title: "Sagittis quam", company: "Nulla", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
+  {image: "assets/home/card_img.svg", title: "Ullamcorper augue", company: "Google", position: "Sr Software Engineer", company_logo: <GoogleIcon className="dark:stroke-white" />},
 ]
 
 

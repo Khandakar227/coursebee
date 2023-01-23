@@ -62,19 +62,19 @@ export default function IntroSection() {
       <div className="max-w-6xl mx-auto flex flex-wrap gap-6 justify-between">
             <div className="grid place-items-center bg-neutral-50 rounded-2xl py-6 w-full max-w-[240px]">
                 <p className="font-anek_bangla font-semibold text-[39px] leading-6 text-secondary-500 py-2">২১৬</p>
-                <p>সফলতার গল্প</p>
+                <p className="dark:text-secondary-500">সফলতার গল্প</p>
             </div>
             <div className="grid place-items-center bg-neutral-50 rounded-2xl py-6 w-full max-w-[240px]">
                 <p className="font-anek_bangla font-semibold text-[39px] leading-6 text-secondary-500 py-2">৫৬</p>
-                <p>ঘন্টা ভিডিও</p>
+                <p className="dark:text-secondary-500">ঘন্টা ভিডিও</p>
             </div>
             <div className="grid place-items-center bg-neutral-50 rounded-2xl py-6 w-full max-w-[240px]">
                 <p className="font-anek_bangla font-semibold text-[39px] leading-6 text-secondary-500 py-2">০৩</p>
-                <p>টি বড় প্রোজেক্ট</p>
+                <p className="dark:text-secondary-500">টি বড় প্রোজেক্ট</p>
             </div>
             <div className="grid place-items-center bg-neutral-50 rounded-2xl py-6 w-full max-w-[240px]">
                 <p className="font-anek_bangla font-semibold text-[39px] leading-6 text-secondary-500 py-2">২৬</p>
-                <p>টি পরীক্ষা</p>
+                <p className="dark:text-secondary-500">টি পরীক্ষা</p>
             </div>
       </div>
     </section>

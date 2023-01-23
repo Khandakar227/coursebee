@@ -36,7 +36,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
-      <main>
+      <main className="text-neutral-900 dark:text-white dark:bg-neutral-900">
         <Carousel>
           <CarouselItem>
             <SliderContent />
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="mx-auto pt-[120px]">
           <section className="max-w-6xl mx-auto">
             <div className="mb-[24px] flex justify-between">
-              <h2 className="font-bold text-neutral-900 font-lora text-[39px] leading-[52px]">
+              <h2 className="font-bold font-lora text-[39px] leading-[52px]">
                 Our Courses
               </h2>
               <div className="text-secondary-500 font-inter font-bold">

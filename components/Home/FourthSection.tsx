@@ -8,13 +8,13 @@ import FeatureCard from "../common/FeatureCard";
 
 export default function FourthSection() {
   return (
-    <section className="bg-neutral-50 py-[120px]">
+    <section className="bg-neutral-50 dark:bg-neutral-800 py-[120px]">
       <h2 className="font-lora text-[40px] leading-[52px] font-semibold text-center mb-10">
         Why Coursebee
       </h2>
       <div className="max-w-6xl mx-auto grid gap-6 justify-center items-stretch grid-cols-3">
         <FeatureCard
-          className="group hover:bg-secondary-900 hover:text-white transition-all"
+          className="dark:bg-neutral-900 group dark:hover:bg-secondary-900 hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Briefcase
               width={48}
@@ -33,7 +33,7 @@ export default function FourthSection() {
           }
         />
         <FeatureCard
-          className="group hover:bg-secondary-900 hover:text-white transition-all"
+          className="dark:bg-neutral-900 group dark:hover:bg-secondary-900 hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Category
               width={48}
@@ -53,7 +53,7 @@ export default function FourthSection() {
           }
         />
         <FeatureCard
-          className="row-span-2 group hover:bg-secondary-900 hover:text-white transition-all"
+          className="row-span-2 dark:bg-neutral-900 group dark:hover:bg-secondary-900 hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Star
               width={48}
@@ -86,7 +86,7 @@ export default function FourthSection() {
           }
         />
         <FeatureCard
-          className="group hover:bg-secondary-900 hover:text-white transition-all"
+          className="dark:bg-neutral-900 group dark:hover:bg-secondary-900 hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Send
               width={48}
@@ -105,7 +105,7 @@ export default function FourthSection() {
           }
         />
         <FeatureCard
-          className="group hover:bg-secondary-900 hover:text-white transition-all"
+          className="dark:bg-neutral-900 group dark:hover:bg-secondary-900 hover:bg-secondary-900 hover:text-white transition-all"
           icon={
             <Play
               width={48}

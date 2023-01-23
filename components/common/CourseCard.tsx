@@ -16,10 +16,10 @@ export default function CourseCard({
   previous_price: string;
 }) {
   return (
-    <div className="card shadow-xl rounded-xl">
+    <div className="card shadow-xl rounded-xl dark:bg-neutral-800 dark:text-white text-neutral-900">
       <Image className="rounded-xl" src={image} alt={title} height={160} width={240} />
       <div className="p-4 pb-6">
-        <h1 className="font-bold leading-6 font-inter text-neutral-900 mb-[10px]">
+        <h1 className="font-bold leading-6 font-inter mb-[10px]">
           {title}
         </h1>
         <p className="text-neutral-700 font-anek_bangla leading-5 text-sm mb-4 flex gap-2">
@@ -27,7 +27,7 @@ export default function CourseCard({
           <span>{starting_time}</span>
         </p>
         <p className="flex items-center gap-2 mb-4">
-          <span className="text-neutral-900 font-bold font-anek_bangla text-xl">{price}</span>
+          <span className="font-bold font-anek_bangla text-xl">{price}</span>
           <del className="text-neutral-500 font-bold font-anek_bangla text-xl">{previous_price}</del>
         </p>
           <button className="w-full text-secondary-700 bg-secondary-50 py-2 px-4 rounded-lg leading-6 justify-center flex gap-2 items-center">
